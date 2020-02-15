@@ -4,46 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrapper">
-    <nav>
-        <div class="head">
-            <h1>Brock Horton</h1>
-            <ul>
-                <li><a class="Con_btn" href="contact.html">Contact</a></li>
-                <li><a class="Port_btn" href="portfolio.html">Portfolio</a></li>
-                <li><a class="active About_btn" href="index.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
-<div class="main clearfix">
-        <div class="style_bar">
-    <h2>Contact</h2>
-        </div>
-        <div class="content">
-<div class="form-block">
-    <div class="form" id="email-form">
-        <div class="contact-form-field">
-            <p class="zero">Name</p>
-            <input type="text" id="Name" name="your-name"  placeholder="John Smith">
-        </div>
-        <div class="contact-form-field middle">
-            <p class="zero">Email</p>
-            <input type="email" id="Email" name="your-email"  placeholder="example@gmail.com">
-        </div>
-        <div class="textarea w-input">
-            <p class="zero">Message</p>
-            <textarea id="message" name="your-message" cols="40" rows="10" placeholder="Type your message here..."></textarea>
-        </div>
+    <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1 alert alert-primary">Brock Horton</span>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        </nav>
+    </div>
+<div class="container main">
+<div class="row br-1">
+    <div class="style_bar col-12">
+        <h2>Contact</h2>
     </div>
 </div>
-    <div class="submit-btn">
-        <input type="Submit" value="Submit" class="form-controlsubmit">
-    </div>
+<div class="row">
+    <form class="col-12">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="forming form-control" id="exampleFormControlInput1" placeholder="John Smith">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="forming form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="forming form-control" id="exampleFormControlTextarea1" cols="40" rows="10" placeholder="Type your message here..."></textarea>
+        </div>
+        <div>
+            <input type="Submit" value="Submit" class="form-controlsubmit">
+        </div>
+    </form>
 </div>
+
 </div>
 </div>
 </body>
@@ -51,3 +51,6 @@
     <p>Copyright@</p>
 </footer>
 </html>
+
+
+
