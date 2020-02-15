@@ -5,6 +5,9 @@ nav {
     border-style: solid;
     border-color: #cccccc;
 }
+.conainer-fluid{
+    height:100px;
+}
 .main {
     background-color: #ffffff;
     margin-top: 30px;
@@ -12,6 +15,20 @@ nav {
     border-width: 1px;
     border-style: solid;
     padding: 15px;
+    margin-bottom: 100px;
+    width: 960px;
+}
+.head {
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
+}
+.right {
+    float: right;
+    margin-top: 20px;
+}
+.top {
+    padding:0;
 }
 h1 {
     font-size: 30px;
@@ -66,6 +83,21 @@ body {
     height: 200px;
     position: relative;
     float: left;
+}
+.Textbar{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 15px;
+    margin: 0px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    left: 0em;
+    bottom: 30px;
+    z-index: 1;
+    text-align: center;
 }
 .forming {width: 98%;}
 footer{
