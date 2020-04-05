@@ -5,6 +5,12 @@ nav {
     border-style: solid;
     border-color: #cccccc;
 }
+button {
+    width: 49%;
+    height: 30px;
+    background-color: #aa4aa5;
+    color: white;
+}
 .conainer-fluid{
     height:100px;
 }
@@ -17,6 +23,9 @@ nav {
     padding: 15px;
     margin-bottom: 100px;
     width: 960px;
+}
+.navbar-nav {
+    flex-direction: row !important;
 }
 .head {
     width: 960px;
@@ -32,7 +41,7 @@ nav {
 }
 h1 {
     font-size: 30px;
-    background-color: #4aaaa5;
+    background-color: #aa4aa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
@@ -43,11 +52,12 @@ h1 {
 h2 {
     float:left;
     font-size: 28px;
-    color: #4aaaa5;
+    color:  #aa4aa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
     background-image: url("../images/back.jpg");
+    background-size: 10%;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -60,7 +70,7 @@ body {
     border-color: #cccccc;
 }
 .form-controlsubmit {
-    background-color: #4aaaa5;
+    background-color:  #aa4aa5;;
     color: white;
     padding: 8px 30px;
     margin: 10px 0px;
@@ -85,7 +95,7 @@ body {
     float: left;
 }
 .Textbar{
-    background-color: #4aaaa5;
+    background-color:  #aa4aa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -114,7 +124,7 @@ footer{
       border: 0;
       border-top: 5px;
       border-style: solid;
-      border-color: #4aaaa5;
+      border-color: #aa4aa5;
       color: #cccccc;
       text-align: center;
   }
