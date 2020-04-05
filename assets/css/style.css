@@ -5,11 +5,9 @@ nav {
     border-style: solid;
     border-color: #cccccc;
 }
-button {
+a {
+    padding: 5px 15px;
     width: 49%;
-    height: 30px;
-    background-color: #aa4aa5;
-    color: white;
 }
 .conainer-fluid{
     height:100px;
@@ -54,6 +52,28 @@ h2 {
     font-size: 28px;
     color:  #aa4aa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(146, 136, 0);
+}
+p {
+    padding: 0;
+    margin: 0;
+
+}
+.Bute {
+    padding: 10px;
+    background-color: #aa4aa5;
+    color: white;
+    vertical-align: auto;
+}
+.full {
+    padding: 10px;
+    background-color: #aa4aa5;
+    color: white;
+    width: 100%;
 }
 body {
     background-image: url("../images/back.jpg");
